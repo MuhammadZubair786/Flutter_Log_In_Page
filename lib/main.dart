@@ -98,13 +98,19 @@ class MyApp extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     primary: Colors.pink,
                     onPrimary: Colors.white,
+                    elevation: 20,
+                    side: BorderSide(color: Colors.white, width: 1),
+                  // shadowColor: Colors.pink,
+                  // shape: RoundedRectangleBorder(
+                  //     borderRadius: BorderRadius.circular(30)),
+                ),
                   ),
                 ),
               )
 
                   //  child
                   //   TextField( decoration: InputDecoration( hintText: 'Please enter a search term' ), ),
-                  ),
+                  ,
               SizedBox(height: 120),
               
               Row(
